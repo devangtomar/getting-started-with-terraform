@@ -2,13 +2,13 @@
 
 HashiCorp’s product for infrastructure as a code is called Terraform. It is a tool for safely and repeatedly developing, altering, and controlling infrastructure. HashiCorp Configuration Language (HCL), used for human-readable, automated deployments, is a configuration language that operators and infrastructure teams can use with Terraform to manage environments.
 
-![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.001.jpeg){:height="150px" width="150px"}
+![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.001.jpeg)
 
 I’m sure you’ve heard of the Infrastructure as Code (IaC) concept if you’re a DevOps engineer or someone who has to deal with DevOps-related work on a daily basis. Simply put, IaC is something that has fallen from Heaven to assist everyday struggling DevOps engineers. IaC is a method of managing and provisioning an entire IT infrastructure by using machine-readable definition files. Using programming scripts helps to automate the entire IT infrastructure.
 
 IaC has numerous advantages. It enables faster execution when configuring infrastructure, reduces the cost and risk associated with implementing infrastructure, has full traceability of changes, and so on.
 
-![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.002.jpeg){:height="150px" width="150px"}
+![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.002.jpeg)
 
 Nobody does manual infrastructure provision anymore, unless you live under a rock. Terraform is widely used as an infrastructure provisioning tool. In this post, we’ll look at how anyone can get started with Terraform and provision infrastructure on your local machine.
 
@@ -79,7 +79,7 @@ Then your directory structure should look something like this :
 
 The next resource is the Docker Image, which we must obtain from DockerHub, and the last is the container creation, which maps internal port 7080 to external port 8080.
 
-![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.009.jpeg){:height="150px" width="150px"}
+![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.009.jpeg){width=250}
 
 And then validate > plan > apply using the following commands :
 
@@ -104,7 +104,7 @@ In production environments, destroying your infrastructure is a rare occurrence.
 
 ![Text
 
-Description automatically generated]![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.011.jpeg){:height="150px" width="150px"}
+Description automatically generated]![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.011.jpeg)
 
 The terraform destroy command kills the resources specified in your Terraform configuration. This command is the inverse of terraform apply in that it terminates all of the configuration’s resources. It does not destroy resources that are not described in the current configuration that are running elsewhere.$ terraform destroy
 
@@ -116,7 +116,7 @@ The terraform destroy command kills the resources specified in your Terraform 
 
 You’ve learned how to use Terraform configuration files to deploy and manage Docker images, and containers. You’ve realised that by declaring them in Terraform code, you can create as many containers as you need.
 
-![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.012.jpeg){:height="150px" width="150px"}
+![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.012.jpeg)
 
 
 The first step toward taking advantage of containerization technology and reducing overhead is to deploy and manage Docker containers. Why not use this first step to learn more about Docker services and Kubernetes and how they can help your projects?
