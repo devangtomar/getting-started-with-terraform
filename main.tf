@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     docker = {
-      source  = "terraform-providers/docker"
-      version = "~> 2.3.0"
+      source  = "kreuzwerker/docker"
+      version = "2.21.0"
     }
   }
 }
@@ -14,15 +14,15 @@ resource "docker_image" "node-app" {
   keep_locally = false
 }
 
-resource "docker_container" "angular-webapp" {
-  image = docker_image.angular-node-webapp.latest
+resource "docker_container" "node-app" {
+  image = docker_image.generic-node-app.latest
   name  = var.container_name
   ports {
-    internal = 3080
+    internal = 7080
     external = 8080
   }
 }
 
 output "container_name" {
-  value = docker_container.angular-webapp.name
+  value = docker_container.node-app.name
 }
