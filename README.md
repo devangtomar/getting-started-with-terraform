@@ -83,9 +83,11 @@ The next resource is the Docker Image, which we must obtain from DockerHub, and 
 
 And then validate > plan > apply using the following commands :
 
+```terraform
 \# And that's about it..terraform validate
 terraform plan
 terraform apply
+```
 
 And voila..
 
@@ -109,7 +111,9 @@ Description automatically generated]![](./images/Aspose.Words.e989f448-0261-45d5
 The terraform destroy command kills the resources specified in your Terraform configuration. This command is the inverse of terraform apply in that it terminates all of the configuration’s resources. It does not destroy resources that are not described in the current configuration that are running elsewhere.$ terraform destroy
 
 ```terraform
-\# Danger zone.. this destroys everythingterraform destroy
+\# Danger zone.. this destroys everything
+
+terraform destroy
 ```
 
 **Conclusion 🤔**
