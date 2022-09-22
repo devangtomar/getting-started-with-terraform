@@ -26,11 +26,14 @@ Links to respective installation guides :
 
 Here are the primary commands :
 
+
+```terraform
 - **terraform init :** Sets up the working directory, which contains all of the configuration files.
 - **terraform validate :** Validates a directory’s configuration files.
 - **terraform plan** : Creates an execution plan to get the infrastructure to the desired state.
 - **terraform apply** : Implements the infrastructure changes specified in the plan.
 - **terraform destroy :** Removes all old infrastructure resources.
+```
 
 ![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.003.png)
 
@@ -44,17 +47,19 @@ We’ll be hosting a simple Nodejs hello world 👋 app using express. Which wou
 
 ![Text
 
-Description automatically generated](Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.005.png)
+Description automatically generated](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.005.png)
 
 And Dockerizing the same using this as our Dockerfile
 
 ![Text
 
-Description automatically generated](Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.006.png)
+Description automatically generated](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.006.png)
 
 And make sure you build the image locally using
 
+```dockerfile
 docker build -t generic-node-app .
+```
 
 **Now provisioning infrastructure using Terraform 🛠**
 
@@ -64,7 +69,9 @@ We’ve seen how to manually run this example project on Docker. Let’s see wha
 
 Terraform configurations must specify which providers are required so that Terraform can install and use them when we run the terraform init command.
 
+```terraform
 terraform init
+```
 
 Then your directory structure should look something like this :
 
@@ -86,7 +93,9 @@ And voila..
 
 You have successfully deployed Docker components, but you must still verify that they are deployed on the Docker host using Docker commands.
 
+```dockerfile
 docker ps -a
+```
 
 **Destroy Infrastructure 🏗**
 
@@ -95,11 +104,13 @@ In production environments, destroying your infrastructure is a rare occurrence.
 
 ![Text
 
-Description automatically generated](Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.011.jpeg)
+Description automatically generated](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.011.jpeg)
 
 The terraform destroy command kills the resources specified in your Terraform configuration. This command is the inverse of terraform apply in that it terminates all of the configuration’s resources. It does not destroy resources that are not described in the current configuration that are running elsewhere.$ terraform destroy
 
+```terraform
 \# Danger zone.. this destroys everythingterraform destroy
+```
 
 **Conclusion 🤔**
 
