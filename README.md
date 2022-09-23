@@ -47,13 +47,13 @@ We’ll be hosting a simple Nodejs hello world 👋 app using express. Which wou
 
 ![Text
 
-Description automatically generated](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.005.png)
+Description automatically generated]![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.005.png)
 
 And Dockerizing the same using this as our Dockerfile
 
 ![Text
 
-Description automatically generated](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.006.png)
+Description automatically generated]![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.006.png)
 
 And make sure you build the image locally using
 
@@ -104,7 +104,7 @@ In production environments, destroying your infrastructure is a rare occurrence.
 
 ![Text
 
-Description automatically generated](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.011.jpeg)
+Description automatically generated]![](./images/Aspose.Words.e989f448-0261-45d5-bad3-65aa4c8403b4.011.jpeg)
 
 The terraform destroy command kills the resources specified in your Terraform configuration. This command is the inverse of terraform apply in that it terminates all of the configuration’s resources. It does not destroy resources that are not described in the current configuration that are running elsewhere.$ terraform destroy
 
