@@ -135,6 +135,6 @@ The first step toward taking advantage of containerization technology and reduci
 🔗 LinkedIn : [devangtomar](https://www.linkedin.com/in/devangtomar)
 📚 Stackoverflow : [devangtomar](https://stackoverflow.com/users/8198097/devangtomar)
 🖼️ Instagram : [be_ayushmann](https://instagram.com/be_ayushmann)
-Ⓜ️ Medium : [Devang Tomar](https://medium.com/u/8f5e1c86129d?source=post_page-----e42119a306ca--------------------------------)
+Ⓜ️ Medium : [Devang Tomar](https://devangtomar.medium.com/)
 ☊ Hashnode : [devangtomar](https://devangtomar.hashnode.dev/)
 
